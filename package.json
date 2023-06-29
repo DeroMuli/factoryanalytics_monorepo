@@ -1,0 +1,7 @@
+{
+    "name": "factoryanalytics",
+    "private": true,
+    "workspaces": [
+      "packages/*"
+    ]
+  }
