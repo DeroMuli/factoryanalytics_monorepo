@@ -33,6 +33,7 @@ const VectorIcon = (props: FactoryIconProp) => {
   const { icon, color } = props;
   const iconsize = props.iconsize || 80;
   const style = props.iconstyle;
+  //remove testID from individual icons and add it to the parent component
   switch (icon.iconlibrary) {
     case "AntDesign":
       return (
@@ -41,6 +42,7 @@ const VectorIcon = (props: FactoryIconProp) => {
           color={color}
           style={style}
           size={iconsize}
+          testID="vectoricon"
         />
       );
     case "Entypo":
@@ -50,6 +52,7 @@ const VectorIcon = (props: FactoryIconProp) => {
           color={color}
           style={style}
           size={iconsize}
+          testID="vectoricon"
         />
       );
     case "EvilIcons":
@@ -59,6 +62,7 @@ const VectorIcon = (props: FactoryIconProp) => {
           color={color}
           style={style}
           size={iconsize}
+          testID="vectoricon"
         />
       );
     case "Feather":
@@ -68,6 +72,7 @@ const VectorIcon = (props: FactoryIconProp) => {
           color={color}
           style={style}
           size={iconsize}
+          testID="vectoricon"
         />
       );
     case "FontAwesome":
@@ -77,6 +82,7 @@ const VectorIcon = (props: FactoryIconProp) => {
           color={color}
           style={style}
           size={iconsize}
+          testID="vectoricon"
         />
       );
     case "MaterialCommunityIcons":
@@ -86,6 +92,7 @@ const VectorIcon = (props: FactoryIconProp) => {
           color={color}
           style={style}
           size={iconsize}
+          testID="vectoricon"
         />
       );
     case "MaterialIcons":
@@ -95,6 +102,7 @@ const VectorIcon = (props: FactoryIconProp) => {
           color={color}
           style={style}
           size={iconsize}
+          testID="vectoricon"
         />
       );
   }

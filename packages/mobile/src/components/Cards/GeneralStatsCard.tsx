@@ -1,8 +1,8 @@
 import React from "react";
 import { View, Text } from "react-native";
 import definedcolors from "../../constants/colors";
-import VectorIcon from "../../assets/icons/VectorIcons";
-import type { Icon } from "../../assets/icons/VectorIcons";
+import VectorIcon from "../../assets/icons/VectorIcons/VectorIcons";
+import type { Icon } from "../../assets/icons/VectorIcons/VectorIcons";
 import { useTheme } from "react-native-paper";
 
 type GeneralStatsCardProps = {

@@ -1,8 +1,8 @@
 import React, { useEffect, useState, useRef } from "react";
 import { Switch, useTheme } from "react-native-paper";
 import { Dimensions, TouchableOpacity } from "react-native";
-import VectorIcon from "../../assets/icons/VectorIcons";
-import type { Icon } from "../../assets/icons/VectorIcons";
+import VectorIcon from "../../assets/icons/VectorIcons/VectorIcons";
+import type { Icon } from "../../assets/icons/VectorIcons/VectorIcons";
 import { Text, StyleSheet } from "react-native";
 import { screen_names } from "../../constants/ScreenNames";
 import { NavigationProp, useNavigation } from "@react-navigation/native";

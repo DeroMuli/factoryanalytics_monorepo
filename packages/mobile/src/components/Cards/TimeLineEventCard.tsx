@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { View, Text } from "react-native";
 import { useTheme } from "react-native-paper";
 import colors from "../../constants/colors";
-import VectorIcon, { Icon } from "../../assets/icons/VectorIcons";
+import VectorIcon, { Icon } from "../../assets/icons/VectorIcons/VectorIcons";
 
 type EventType = "Breakdown" | "Added Device" | "Warning" | "Removed device";
 
